@@ -48,16 +48,17 @@
 
 
 
-			Console.WriteLine("O\nO");
+			Console.WriteLine("O(jegesmedve)\nO(oroszlán)");
 			int haladas = 0;
 			int haladas2 = 0;
-			for (int i = 0; i < 5; i++)
+			for (int i = 0; i < 10; i++)
 			{
 				Thread.Sleep(1000);
 				Console.Clear();
-				Console.SetCursorPosition(haladas += 2, 0);
+                Console.WriteLine("(jegesmedve)\n(oroszlán)");
+				Console.SetCursorPosition(haladas += allat2.Sebesseg, 0);
 				Console.WriteLine("O");
-				Console.SetCursorPosition(haladas2 += 3, 1);
+				Console.SetCursorPosition(haladas2 += allat4.Sebesseg, 1);
 				Console.WriteLine("O");
 
 			}
